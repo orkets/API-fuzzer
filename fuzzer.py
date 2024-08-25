@@ -14,6 +14,6 @@ def loop():
             print(data)
         else:
             print(f"Unexpected status code {response.status_code} for: {word}")
-        print(word)  # This might be redundant, but it's retained from the original code
+        print(word) 
 
 loop()
